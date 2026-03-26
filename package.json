@@ -1,0 +1,21 @@
+{
+  "name": "ai-create",
+  "version": "1.0.0",
+  "description": "1. 打开网站首页 `index.html` 2. 点击「选择图片」上传图片 3. 页面会把图片以**网格**形式展示在当前页面 4. 点击缩略图可在弹窗中查看大图",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "uuid": "^13.0.0"
+  }
+}
